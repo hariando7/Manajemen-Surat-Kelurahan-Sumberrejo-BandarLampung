@@ -46,5 +46,6 @@ Route::controller(GeneralPage::class)->group(function () {
 
     // Awal Admin
     Route::get('/login-admin', 'login');
+    Route::get('/dashboard', 'dashboard');
     // Akhir Admin
 });
