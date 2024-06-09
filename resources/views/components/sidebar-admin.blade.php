@@ -16,39 +16,57 @@
         </div>
         <ul class="space-y-2 font-medium">
             <li>
-                <a href="#" class="bg-[#B2ACAC] flex items-center p-2 text-gray-900 rounded-lg dark:text-white hover:bg-gray-100 dark:hover:bg-gray-700 group">
-                    <span class="ms-3">Dashboard</span>
+                <a href="#" class="bg-[#B2ACAC] flex items-center p-1 text-gray-900 rounded-lg dark:text-white hover:bg-gray-100 dark:hover:bg-gray-700 group">
+                    <span class="flex-1 text-center">Dashboard</span>
                 </a>
             </li>
             <li>
-                <a href="#" class="bg-[#B2ACAC] flex items-center p-2 text-gray-900 rounded-lg dark:text-white hover:bg-gray-100 dark:hover:bg-gray-700 group">
-                    <span class="flex-1 ms-3 whitespace-nowrap">Manajemen Surat</span>
+                <button type="button" class="bg-[#B2ACAC] flex items-center p-1 text-gray-900 rounded-lg dark:text-white hover:bg-gray-100 dark:hover:bg-gray-700 group w-full justify-center" aria-controls="dropdown-example" data-collapse-toggle="dropdown-example">
+                    <span class="" sidebar-toggle-item>Manajemen Surat</span>
+                </button>
+                <ul id="dropdown-example" class="hidden py-2 space-y-2 flex flex-col items-end">
+                    <li>
+                        <a href="#" class="bg-[#D72323] flex items-center w-[150px] justify-center p-1 text-base font-normal text-gray-900 transition duration-75 rounded-lg group hover:bg-gray-100 dark:text-white dark:hover:bg-gray-700">Surat Keluar</a>
+                    </li>
+                    <li>
+                        <a href="#" class="bg-[#D72323] flex items-center w-[150px] justify-center p-1 text-base font-normal text-gray-900 transition duration-75 rounded-lg group hover:bg-gray-100 dark:text-white dark:hover:bg-gray-700">Surat Masuk</a>
+                    </li>
+                    <li>
+                        <a href="#" class="bg-[#D72323] flex items-center w-[150px] justify-center p-1 text-base font-normal text-gray-900 transition duration-75 rounded-lg group hover:bg-gray-100 dark:text-white dark:hover:bg-gray-700">Arsip Surat</a>
+                    </li>
+                </ul>
+            </li>
+            <li>
+                <a href="#" class="bg-[#B2ACAC] flex items-center p-1 text-gray-900 rounded-lg dark:text-white hover:bg-gray-100 dark:hover:bg-gray-700 group">
+                    <span class="flex-1 text-center whitespace-nowrap">Pelaporan</span>
                 </a>
             </li>
             <li>
-                <a href="#" class="bg-[#B2ACAC] flex items-center p-2 text-gray-900 rounded-lg dark:text-white hover:bg-gray-100 dark:hover:bg-gray-700 group">
-                    <span class="flex-1 ms-3 whitespace-nowrap">Pelaporan</span>
+                <a href="#" class="bg-[#B2ACAC] flex items-center p-1 text-gray-900 rounded-lg dark:text-white hover:bg-gray-100 dark:hover:bg-gray-700 group">
+                    <span class="flex-1 text-center whitespace-nowrap">Informasi</span>
                 </a>
             </li>
             <li>
-                <a href="#" class="bg-[#B2ACAC] flex items-center p-2 text-gray-900 rounded-lg dark:text-white hover:bg-gray-100 dark:hover:bg-gray-700 group">
-                    <span class="flex-1 ms-3 whitespace-nowrap">Informasi</span>
+                <a href="#" class="bg-[#B2ACAC] flex items-center p-1 text-gray-900 rounded-lg dark:text-white hover:bg-gray-100 dark:hover:bg-gray-700 group">
+                    <span class="flex-1 text-center whitespace-nowrap">Galeri</span>
                 </a>
             </li>
             <li>
-                <a href="#" class="bg-[#B2ACAC] flex items-center p-2 text-gray-900 rounded-lg dark:text-white hover:bg-gray-100 dark:hover:bg-gray-700 group">
-                    <span class="flex-1 ms-3 whitespace-nowrap">Galeri</span>
-                </a>
+                <button type="button" class="bg-[#B2ACAC] flex items-center p-1 text-gray-900 rounded-lg dark:text-white hover:bg-gray-100 dark:hover:bg-gray-700 group w-full justify-center" aria-controls="dropdown" data-collapse-toggle="dropdown">
+                    <span class="" sidebar-toggle-item>Kelola Akun</span>
+                </button>
+                <ul id="dropdown" class="hidden py-2 space-y-2 flex flex-col items-end">
+                    <li>
+                        <a href="#" class="bg-[#D72323] flex items-center w-[150px] justify-center p-1 text-base font-normal text-gray-900 transition duration-75 rounded-lg group hover:bg-gray-100 dark:text-white dark:hover:bg-gray-700">Daftar Akun</a>
+                    </li>
+                    <li>
+                        <a href="#" class="bg-[#D72323] flex items-center w-[150px] justify-center p-1 text-base font-normal text-gray-900 transition duration-75 rounded-lg group hover:bg-gray-100 dark:text-white dark:hover:bg-gray-700">Permohonan Akun</a>
+                    </li>
+                </ul>
             </li>
             <li>
-                <a href="#" class="bg-[#B2ACAC] flex items-center p-2 text-gray-900 rounded-lg dark:text-white hover:bg-gray-100 dark:hover:bg-gray-700 group">
-                    <span class="flex-1 ms-3 whitespace-nowrap">Kelola Akun</span>
-                </a>
-            </li>
-            <li>
-                <a href="#" class="bg-[#B2ACAC] flex items-center p-2 text-gray-900 rounded-lg dark:text-white hover:bg-gray-100 dark:hover:bg-gray-700 group">
-
-                    <span class="flex-1 ms-3 whitespace-nowrap">Logout</span>
+                <a href="#" class="bg-[#B2ACAC] flex items-center p-1 text-gray-900 rounded-lg dark:text-white hover:bg-gray-100 dark:hover:bg-gray-700 group">
+                    <span class="flex-1 text-center whitespace-nowrap">Logout</span>
                 </a>
             </li>
         </ul>
