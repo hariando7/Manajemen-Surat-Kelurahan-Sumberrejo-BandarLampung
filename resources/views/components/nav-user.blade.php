@@ -1,9 +1,9 @@
     {{-- Awal Navbar --}}
-    <nav class="bg-[#D72323] fixed w-full z-20 top-0 start-0 border-b border-gray-200">
+    <nav class="bg-[#D72323] fixed w-full z-50 top-0 start-0">
         <div class="max-w-screen-xl flex flex-wrap items-center mx-auto p-4 justify-between">
             <div class="flex gap-5">
                 <a href="#" class="flex items-center space-x-3 rtl:space-x-reverse">
-                    <img src="/image/logo.svg" class="h-12" alt="Flowbite Logo" />
+                    <img src="/image/icon-logo.ico" class="h-8 w-8 m-auto flex" alt="Flowbite Logo" />
                 </a>
                 <div class="">
                     <div class="self-center text-md font-semibold text-white">Kelurahan
