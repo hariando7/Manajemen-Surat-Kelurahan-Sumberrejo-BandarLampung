@@ -167,8 +167,7 @@
         <div class="text-center font-bold text-4xl mb-10">Berita Terkini</div>
         <div class="grid grid-cols-1 lg:grid-cols-2 gap-2 lg:gap-4">
             <div class="">
-                <img class="h-auto max-w-full rounded-lg flex m-auto" src="./image/berita-terkini.svg"
-                    alt="">
+                <img class="h-auto max-w-full rounded-lg flex m-auto" src="./image/berita-terkini.svg" alt="">
             </div>
             <div class="">
                 <div class="font-bold text-2xl mb-4 lg:mb-10">Kelurahan Sumber Rejo Kemiling Gelar Musrebangkel 2021
@@ -177,7 +176,7 @@
                     Musrebang, nampak hadir dalam kegaiatan tersebut Lurah Sumber Rejo Edwin Putra Manaha, Camat
                     Kemiling yang diwakili oleh Kasi Pembangunan Densi  Farida,.MM, Ketua TPPK Sumber Rejo Guritno,
                     KetuaTKPK Kemiling Bapak R. Sutrisno, S.Pd beserta Sekretaris Hilman Adi Wijaya. </p>
-                <a role="button" class="btn bg-[#2B2A4C] text-white">Selengkapnya</a>
+                <a role="button" class="btn border-none bg-[#2B2A4C] text-white">Selengkapnya</a>
             </div>
         </div>
     </section>

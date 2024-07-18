@@ -42,7 +42,8 @@
                     dui accumsan sit amet. Tincidunt dui ut ornare lectus sit amet est placerat in.
                 </div>
                 <div class="mt-10">
-                    <img src="./image/tentang-kelurahan.svg" class="w-96 flex m-auto justify-center items-center" alt="">
+                    <img src="./image/tentang-kelurahan.svg" class="w-96 flex m-auto justify-center items-center"
+                        alt="">
                 </div>
             </div>
         </section>

@@ -34,8 +34,7 @@
                         <div class="flex flex-col items-center justify-center">
                             <div>
                                 <img class="h-auto max-w-full rounded-lg"
-                                    src="https://flowbite.s3.amazonaws.com/docs/gallery/square/image.jpg"
-                                    alt="">
+                                    src="https://flowbite.s3.amazonaws.com/docs/gallery/square/image.jpg" alt="">
                                 <div class="text-center text-black lg:w-1/2 m-auto mt-2 lg:mt-5">
                                     <div class="text-md font-bold">Nama</div>
                                     <div class="text-sm">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
@@ -48,8 +47,7 @@
                         <div class="flex flex-col items-center justify-center">
                             <div>
                                 <img class="h-auto max-w-full rounded-lg"
-                                    src="https://flowbite.s3.amazonaws.com/docs/gallery/square/image.jpg"
-                                    alt="">
+                                    src="https://flowbite.s3.amazonaws.com/docs/gallery/square/image.jpg" alt="">
                                 <div class="text-center text-black lg:w-1/2 m-auto mt-2 lg:mt-5">
                                     <div class="text-md font-bold">Nama</div>
                                     <div class="text-sm">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
@@ -62,8 +60,7 @@
                         <div class="flex flex-col items-center justify-center">
                             <div>
                                 <img class="h-auto max-w-full rounded-lg"
-                                    src="https://flowbite.s3.amazonaws.com/docs/gallery/square/image.jpg"
-                                    alt="">
+                                    src="https://flowbite.s3.amazonaws.com/docs/gallery/square/image.jpg" alt="">
                                 <div class="text-center text-black lg:w-1/2 m-auto mt-2 lg:mt-5">
                                     <div class="text-md font-bold">Nama</div>
                                     <div class="text-sm">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
@@ -76,8 +73,7 @@
                         <div class="flex flex-col items-center justify-center">
                             <div>
                                 <img class="h-auto max-w-full rounded-lg"
-                                    src="https://flowbite.s3.amazonaws.com/docs/gallery/square/image.jpg"
-                                    alt="">
+                                    src="https://flowbite.s3.amazonaws.com/docs/gallery/square/image.jpg" alt="">
                                 <div class="text-center text-black lg:w-1/2 m-auto mt-2 lg:mt-5">
                                     <div class="text-md font-bold">Nama</div>
                                     <div class="text-sm">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
@@ -90,8 +86,7 @@
                         <div class="flex flex-col items-center justify-center">
                             <div>
                                 <img class="h-auto max-w-full rounded-lg"
-                                    src="https://flowbite.s3.amazonaws.com/docs/gallery/square/image.jpg"
-                                    alt="">
+                                    src="https://flowbite.s3.amazonaws.com/docs/gallery/square/image.jpg" alt="">
                                 <div class="text-center text-black lg:w-1/2 m-auto mt-2 lg:mt-5">
                                     <div class="text-md font-bold">Nama</div>
                                     <div class="text-sm">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
@@ -104,8 +99,7 @@
                         <div class="flex flex-col items-center justify-center">
                             <div>
                                 <img class="h-auto max-w-full rounded-lg"
-                                    src="https://flowbite.s3.amazonaws.com/docs/gallery/square/image.jpg"
-                                    alt="">
+                                    src="https://flowbite.s3.amazonaws.com/docs/gallery/square/image.jpg" alt="">
                                 <div class="text-center text-black lg:w-1/2 m-auto mt-2 lg:mt-5">
                                     <div class="text-md font-bold">Nama</div>
                                     <div class="text-sm">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do

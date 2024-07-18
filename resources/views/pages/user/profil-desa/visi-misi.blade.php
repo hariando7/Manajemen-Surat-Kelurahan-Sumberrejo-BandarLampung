@@ -37,7 +37,7 @@
                             labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco
                             laboris nisi ut aliquip ex ea commodo consequat.
                         </div>
-                        <li>- Misi</li>
+                        <li class="mt-5 lg:mt-10">- Misi</li>
                         <div>
                             Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut
                             labore et dolore magna aliqua. Diam donec adipiscing tristique risus nec feugiat in.
