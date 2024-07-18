@@ -2,7 +2,7 @@
     <nav class="bg-[#D72323] fixed w-full z-50 top-0 start-0">
         <div class="max-w-screen-xl flex flex-wrap items-center mx-auto p-4 justify-between">
             <div class="flex gap-5">
-                <a href="#" class="flex items-center space-x-3 rtl:space-x-reverse">
+                <a href="/" class="flex items-center space-x-3 rtl:space-x-reverse">
                     <img src="/image/icon-logo.ico" class="h-8 w-8 m-auto flex" alt="Flowbite Logo" />
                 </a>
                 <div class="">
@@ -41,20 +41,87 @@
                         </div>
                     </li>
                     <li>
-                        <a href="/profil-desa"
-                            class="block py-2 px-3 md:p-0 text-black lg:text-white bg-white rounded md:bg-transparent hover:text-[#2B2A4C]"
-                            aria-current="page">Profil Desa</a>
+                        <div class="text-white hover:text-[#2B2A4C] flex">
+                            <button id="dropdownNavbarLink" data-dropdown-toggle="profil"
+                                class="block py-2 px-3 md:p-0 text-black lg:text-white bg-white rounded md:bg-transparent hover:text-[#2B2A4C]">Profil
+                                Desa
+                            </button>
+                            <svg class="w-2.5 h-2.5 ms-2.5 flex item-center justify-center m-auto" aria-hidden="true"
+                                xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 10 6">
+                                <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"
+                                    stroke-width="2" d="m1 1 4 4 4-4" />
+                            </svg>
+                        </div>
+                        <!-- Dropdown menu -->
+                        <div id="profil"
+                            class="z-10 hidden font-normal bg-white divide-y divide-gray-100 rounded-lg shadow w-44 dark:bg-gray-700 dark:divide-gray-600">
+                            <ul class="py-2 text-sm text-white bg-[#D72323]" aria-labelledby="dropdownLargeButton">
+                                <li>
+                                    <a href="/profil-desa" class="block px-4 py-2 hover:bg-[#2B2A4C]">Profil</a>
+                                </li>
+                                <li>
+                                    <a href="/visi-misi" class="block px-4 py-2 hover:bg-[#2B2A4C]">Visi
+                                        Misi</a>
+                                </li>
+                                <li>
+                                    <a href="/sejarah" class="block px-4 py-2 hover:bg-[#2B2A4C]">Sejarah</a>
+                                </li>
+                            </ul>
+                        </div>
                     </li>
                     <li>
-                        <a href="/layanan-verifikasi-dokumen"
-                            class="block py-2 px-3 md:p-0 text-black lg:text-white rounded hover:bg-gray-100 md:hover:bg-transparent md:border-0 md:hover:text-[#2B2A4C]">Layanan</a>
+                        <div class="text-white hover:text-[#2B2A4C] flex">
+                            <button id="dropdownNavbarLink" data-dropdown-toggle="layanan"
+                                class="block py-2 px-3 md:p-0 text-black lg:text-white bg-white rounded md:bg-transparent hover:text-[#2B2A4C]">Layanan
+                            </button>
+                            <svg class="w-2.5 h-2.5 ms-2.5 flex item-center justify-center m-auto" aria-hidden="true"
+                                xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 10 6">
+                                <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"
+                                    stroke-width="2" d="m1 1 4 4 4-4" />
+                            </svg>
+                        </div>
+                        <!-- Dropdown menu -->
+                        <div id="layanan"
+                            class="z-10 hidden font-normal bg-white divide-y divide-gray-100 rounded-lg shadow w-44 dark:bg-gray-700 dark:divide-gray-600">
+                            <ul class="py-2 text-sm text-white bg-[#D72323]" aria-labelledby="dropdownLargeButton">
+                                <li>
+                                    <a href="/layanan-verifikasi-dokumen" class="block px-4 py-2 hover:bg-[#2B2A4C]">Verifikasi Dokumen</a>
+                                </li>
+                                <li>
+                                    <a href="/pelaporan" class="block px-4 py-2 hover:bg-[#2B2A4C]">Pelaporan</a>
+                                </li>
+                                <li>
+                                    <a href="/pengajuan-dokumen" class="block px-4 py-2 hover:bg-[#2B2A4C]">Pengajuan Dokumen</a>
+                                </li>
+                            </ul>
+                        </div>
                     </li>
                     <li>
-                        <a href="/informasi-berita"
-                            class="block py-2 px-3 md:p-0 text-black lg:text-white rounded hover:bg-gray-100 md:hover:bg-transparent md:border-0 md:hover:text-[#2B2A4C]">Informasi</a>
+                        <div class="text-white hover:text-[#2B2A4C] flex">
+                            <button id="dropdownNavbarLink" data-dropdown-toggle="informasi"
+                                class="block py-2 px-3 md:p-0 text-black lg:text-white bg-white rounded md:bg-transparent hover:text-[#2B2A4C]">Informasi
+                            </button>
+                            <svg class="w-2.5 h-2.5 ms-2.5 flex item-center justify-center m-auto" aria-hidden="true"
+                                xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 10 6">
+                                <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"
+                                    stroke-width="2" d="m1 1 4 4 4-4" />
+                            </svg>
+                        </div>
+                        <!-- Dropdown menu -->
+                        <div id="informasi"
+                            class="z-10 hidden font-normal bg-white divide-y divide-gray-100 rounded-lg shadow w-44 dark:bg-gray-700 dark:divide-gray-600">
+                            <ul class="py-2 text-sm text-white bg-[#D72323]" aria-labelledby="dropdownLargeButton">
+                                <li>
+                                    <a href="/berita" class="block px-4 py-2 hover:bg-[#2B2A4C]">Berita</a>
+                                </li>
+                                <li>
+                                    <a href="/pengumuman" class="block px-4 py-2 hover:bg-[#2B2A4C]">Pengumuman</a>
+                                </li>
+                            </ul>
+                        </div>
                     </li>
                     <li>
-                        <a href="/galeri-foto-video"
+                        <a href="#galeri-foto"
                             class="block py-2 px-3 md:p-0 text-black lg:text-white rounded hover:bg-gray-100 md:hover:bg-transparent md:border-0 md:hover:text-[#2B2A4C]">Galeri</a>
                     </li>
                     <li>
@@ -87,23 +154,12 @@
             <!-- Dropdown menu -->
             <div class="z-50 hidden my-4 text-base list-none bg-white divide-y divide-gray-100 rounded-lg shadow"
                 id="user-dropdown">
-                <div class="px-4 py-3">
-                    <span class="block text-sm text-gray-900">Bonnie Green</span>
-                    <span class="block text-sm  text-gray-500 truncate">name@flowbite.com</span>
-                </div>
                 <ul class="py-2" aria-labelledby="user-menu-button">
                     <li>
-                        <a href="#" class="block px-4 py-2 text-sm text-gray-700 hover:bg-gray-100">Dashboard</a>
+                        <a href="/login-user" class="block px-4 py-2 text-sm text-gray-700 hover:bg-gray-100">Login User</a>
                     </li>
                     <li>
-                        <a href="#" class="block px-4 py-2 text-sm text-gray-700 hover:bg-gray-100">Settings</a>
-                    </li>
-                    <li>
-                        <a href="#" class="block px-4 py-2 text-sm text-gray-700 hover:bg-gray-100">Earnings</a>
-                    </li>
-                    <li>
-                        <a href="#" class="block px-4 py-2 text-sm text-gray-700 hover:bg-gray-100">Sign
-                            out</a>
+                        <a href="/login-admin" class="block px-4 py-2 text-sm text-gray-700 hover:bg-gray-100">Login Adamin</a>
                     </li>
                 </ul>
             </div>
