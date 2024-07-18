@@ -60,24 +60,17 @@
                             class="text-gray-900 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-full p-2.5"
                             placeholder="Lokasi Kejadian*" required />
                         <div class="flex">
-                            <!-- Input file tersembunyi -->
                             <input type="file" id="gambar" class="hidden" accept="image/*"
                                 onchange="handleFileChange(this)">
-                            <!-- Label yang menampilkan teks "Upload Gambar" -->
                             <label for="gambar"
                                 class="btn cursor-pointer bg-[#D72323] text-white rounded-lg py-2 px-4 hover:bg-[#D72323]">
                                 Upload Gambar
                             </label>
-                            <!-- Div untuk menampilkan nama file yang dipilih -->
                             <div id="nama-file" class="ml-3 text-gray-700"></div>
                             <script>
-                                // Fungsi untuk menangani perubahan pada input file
                                 function handleFileChange(input) {
-                                    // Mengambil file yang dipilih
                                     const file = input.files[0];
-                                    // Mendapatkan nama file
                                     const fileName = file.name;
-                                    // Menampilkan nama file di elemen dengan id "nama-file"
                                     document.getElementById('nama-file').textContent = fileName;
                                 }
                             </script>
