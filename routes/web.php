@@ -42,6 +42,21 @@ Route::controller(GeneralPage::class)->group(function () {
     Route::get('/informasi-detail-berita', 'informasidetailberita');
     Route::get('/informasi-pengumuman', 'informasipengumuman');
     Route::get('/galeri-foto-video', 'galerifotovideo');
+    // Awal Pengajuan Surat
+    Route::get('/pengajuan-surat-domisili', 'pengajuansuratdomisili');
+    Route::get('/pengajuan-surat-domisili-usaha', 'pengajuansuratdomisiliusaha');
+    Route::get('/pengajuan-surat-tidak-mampu', 'pengajuansurattidakmampu');
+    Route::get('/pengajuan-surat-keterangan-kematian', 'pengajuansuratketerangankematian');
+    Route::get('/pengajuan-surat-keterangan', 'pengajuansuratketerangan');
+    Route::get('/pengajuan-surat-keterangan-sudah-menikah', 'pengajuansuratketerangansudahmenikah');
+    Route::get('/pengajuan-surat-keterangan-bersih-diri', 'pengajuansuratketeranganbersihdiri');
+    Route::get('/pengajuan-surat-keterangan-usaha', 'pengajuansuratketeranganusaha');
+    Route::get('/pengajuan-surat-keterangan-pindah', 'pengajuansuratketeranganpindah');
+    Route::get('/pengajuan-surat-keterangan-penghasilan-orang-tua', 'pengajuansuratketeranganpenghasilanorangtua');
+    Route::get('/pengajuan-surat-keterangan-belum-menikah', 'pengajuansuratketeranganbelummenikah');
+    Route::get('/pengajuan-surat-keterangan-kelahiran', 'pengajuansuratketerangankelahiran');
+    Route::get('/pengajuan-surat-pengantar-skck', 'pengajuansuratpengantarskck');
+    // Akhir Pengjuan Surat
     // Akhir User
 
     // Awal Admin

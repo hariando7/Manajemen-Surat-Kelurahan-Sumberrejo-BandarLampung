@@ -63,6 +63,49 @@ class GeneralPage extends Controller
         return view('pages/user/galeri/foto-video');
     }
 
+
+    // Awal Pengajuan Surat
+    function pengajuansuratdomisili () {
+        return view('pages/user/layanan/pengajuan-surat-domisili');
+    }
+    function pengajuansuratdomisiliusaha () {
+        return view('pages/user/layanan/pengajuan-surat-domisili-usaha');
+    }
+    function pengajuansurattidakmampu () {
+        return view('pages/user/layanan/pengajuan-surat-tidak-mampu');
+    }
+    function pengajuansuratketerangankematian () {
+        return view('pages/user/layanan/pengajuan-surat-keterangan-kematian');
+    }
+    function pengajuansuratketerangan () {
+        return view('pages/user/layanan/pengajuan-surat-keterangan');
+    }
+    function pengajuansuratketerangansudahmenikah () {
+        return view('pages/user/layanan/pengajuan-surat-keterangan-sudah-menikah');
+    }
+    function pengajuansuratketeranganbersihdiri () {
+        return view('pages/user/layanan/pengajuan-surat-keterangan-bersih-diri');
+    }
+    function pengajuansuratketeranganusaha () {
+        return view('pages/user/layanan/pengajuan-surat-keterangan-usaha');
+    }
+    function pengajuansuratketeranganpindah () {
+        return view('pages/user/layanan/pengajuan-surat-keterangan-pindah');
+    }
+    function pengajuansuratketeranganpenghasilanorangtua () {
+        return view('pages/user/layanan/pengajuan-surat-keterangan-penghasilan-orang-tua');
+    }
+    function pengajuansuratketeranganbelummenikah () {
+        return view('pages/user/layanan/');
+    }
+    function pengajuansuratketerangankelahiran () {
+        return view('pages/user/layanan/');
+    }
+    function pengajuansuratpengantarskck () {
+        return view('pages/user/layanan/');
+    }
+    // Akhir Pengajuan Surat
+
     // Akhur User
 
     // Awal Admin

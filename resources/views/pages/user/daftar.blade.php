@@ -81,8 +81,7 @@
                                     placeholder="abcdef@gmail.com" required />
                             </div>
                             <div class="mb-2">
-                                <label for="email"
-                                    class="block mb-2 text-sm font-medium text-gray-900">Username</label>
+                                <label for="email" class="block mb-2 text-sm font-medium text-gray-900">Username</label>
                                 <input type="email" id="email"
                                     class="bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-full p-2.5"
                                     placeholder="abcdef@gmail.com" required />
@@ -100,9 +99,8 @@
                                         <path
                                             d="M2.458 12C3.732 7.943 7.523 5 12 5c4.477 0 8.268 2.943 9.542 7-.297 1.153-.764 2.213-1.377 3.137m-2.697 2.516A9.952 9.952 0 0112 19c-4.477 0-8.268-2.943-9.542-7a9.969 9.969 0 012.979-4.411m0 0A9.969 9.969 0 0112 5c4.477 0 8.268 2.943 9.542 7m-2.7 3.137A9.952 9.952 0 0112 19c-4.477 0-8.268-2.943-9.542-7a9.969 9.969 0 012.979-4.411M2.458 12a9.952 9.952 0 011.042-3.411" />
                                     </svg>
-                                    <svg id="eye-closed" class="h-5 w-5 text-gray-500 cursor-pointer hidden"
-                                        fill="none" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"
-                                        stroke="currentColor">
+                                    <svg id="eye-closed" class="h-5 w-5 text-gray-500 cursor-pointer hidden" fill="none"
+                                        xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" stroke="currentColor">
                                         <path
                                             d="M13.875 18.825A10.05 10.05 0 0112 19c-4.477 0-8.268-2.943-9.542-7 .297-1.153.764-2.213 1.377-3.137m2.697-2.516A9.952 9.952 0 0112 5c4.477 0 8.268 2.943 9.542 7-.297 1.153-.764 2.213-1.377 3.137m-2.697 2.516A9.952 9.952 0 0112 19c-4.477 0-8.268-2.943-9.542-7a9.969 9.969 0 012.979-4.411M2.458 12a9.969 9.969 0 012.979-4.411M21 21l-4.35-4.35" />
                                     </svg>
@@ -145,8 +143,7 @@
                                     </div>
                                     <div class="">
                                         <img class="h-[80px] w-[300px] rounded-lg" id="preview_ktp"
-                                            src="./image/ktp.svg"
-                                            alt="">
+                                            src="./image/ktp.svg" alt="">
                                         <div class="text-red-500 text-sm text-right gambar cursor-pointer"
                                             id="reset_ktp">hapus gambar</div>
                                     </div>
@@ -192,8 +189,7 @@
                                     </div>
                                     <div class="">
                                         <img class="h-[80px] w-[300px] rounded-lg" id="preview_swafoto"
-                                            src="./image/swafoto.svg"
-                                            alt="">
+                                            src="./image/swafoto.svg" alt="">
                                         <div class="text-red-500 text-sm text-right gambar cursor-pointer"
                                             id="reset_swafoto">hapus gambar</div>
                                     </div>
@@ -204,7 +200,8 @@
                                     <div class="relative">
                                         <input
                                             class="block w-full text-sm text-gray-900 rounded-lg cursor-pointer bg-gray-50 file:mr-4 file:py-2 file:px-4 file:rounded-l-lg file:border-0 file:text-sm file:font-semibold file:bg-blue-50 file:text-blue-700"
-                                            aria-describedby="input_swafoto_help" id="input_swafoto" type="file" required>
+                                            aria-describedby="input_swafoto_help" id="input_swafoto" type="file"
+                                            required>
                                     </div>
                                     <script>
                                         const fileInputswafoto = document.getElementById('input_swafoto');
