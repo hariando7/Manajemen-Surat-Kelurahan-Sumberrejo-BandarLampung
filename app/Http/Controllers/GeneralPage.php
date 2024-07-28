@@ -47,9 +47,6 @@ class GeneralPage extends Controller
     function layananformpermohonan () {
         return view('pages/user/layanan/form-permohonan');
     }
-    function layananstatusditolak () {
-        return view('pages/user/layanan/status-ditolak');
-    }
     function informasiberita () {
         return view('pages/user/informasi/berita');
     }
@@ -96,15 +93,22 @@ class GeneralPage extends Controller
         return view('pages/user/layanan/pengajuan-surat-keterangan-penghasilan-orang-tua');
     }
     function pengajuansuratketeranganbelummenikah () {
-        return view('pages/user/layanan/');
+        return view('pages/user/layanan/pengajuan-surat-keterangan-belum-menikah');
     }
     function pengajuansuratketerangankelahiran () {
-        return view('pages/user/layanan/');
+        return view('pages/user/layanan/pengajuan-surat-keterangan-kelahiran');
     }
     function pengajuansuratpengantarskck () {
-        return view('pages/user/layanan/');
+        return view('pages/user/layanan/pengajuan-surat-pengantar-skck');
     }
     // Akhir Pengajuan Surat
+
+    function layananstatuspermohonan () {
+        return view('pages/user/layanan/status-permohonan');
+    }
+    function layananstatusditolak () {
+        return view('pages/user/layanan/status-ditolak');
+    }
 
     // Akhur User
 

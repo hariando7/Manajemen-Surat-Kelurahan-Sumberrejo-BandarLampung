@@ -91,7 +91,7 @@
                                 <select id="jeniskelamindiri"
                                     class="bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-full p-2.5"
                                     required>
-                                    <option selected>Pilih Jenis Kelamin</option>
+                                    <option value="" selected disabled>Pilih Jenis Kelamin</option>
                                     <option value="Pria">Pria</option>
                                     <option value="Wanita">Wanita</option>
                                 </select>
@@ -144,25 +144,24 @@
                                     <label class="block mb-2 text-sm font-medium text-gray-900 dark:text-white"
                                         for="input_ktp">Upload file</label>
                                     <div class="relative">
-                                        <input
+                                        <input name=""
                                             class="block w-full text-sm text-gray-900 rounded-lg cursor-pointer bg-gray-50 file:mr-4 file:py-2 file:px-4 file:rounded-l-lg file:border-0 file:text-sm file:font-semibold file:bg-blue-50 file:text-blue-700"
                                             aria-describedby="input_ktp_help" id="input_ktp" type="file" required>
                                     </div>
                                 </div>
                             </div>
                             <div class="text-black">
-                                <div class="font-bold text-lg mb-2">Unggah KK Asli</div>
+                                <div class="font-bold text-lg mb-2">Unggah Foto KK</div>
                                 <div class="flex  mb-2">
                                     <div class="text-sm">
-                                        Pastikan wajah dan isi KTP terlihat jelas, KTP tidak menutupi muka, dan foto
-                                        tidak blur
+                                        Pastikan seluruh bagian KK berada dalam bingkai foto dan bukan fotokopi KK
                                     </div>
                                 </div>
                                 <div class="mb-5">
                                     <label class="block mb-2 text-sm font-medium text-gray-900 dark:text-white"
                                         for="input_swafoto">Upload file</label>
                                     <div class="relative">
-                                        <input
+                                        <input name=""
                                             class="block w-full text-sm text-gray-900 rounded-lg cursor-pointer bg-gray-50 file:mr-4 file:py-2 file:px-4 file:rounded-l-lg file:border-0 file:text-sm file:font-semibold file:bg-blue-50 file:text-blue-700"
                                             aria-describedby="input_swafoto_help" id="input_swafoto" type="file"
                                             required>
@@ -173,15 +172,15 @@
                                 <div class="font-bold text-lg mb-2">Unggah Surat Pengantar RT</div>
                                 <div class="flex  mb-2">
                                     <div class="text-sm">
-                                        Pastikan wajah dan isi KTP terlihat jelas, KTP tidak menutupi muka, dan foto
-                                        tidak blur
+                                        Pastikan seluruh bagian Surat Pengantar RT berada dalam bingkai foto dan bukan
+                                        fotokopi Surat Pengantar RT
                                     </div>
                                 </div>
                                 <div class="mb-5">
                                     <label class="block mb-2 text-sm font-medium text-gray-900 dark:text-white"
                                         for="input_swafoto">Upload file</label>
                                     <div class="relative">
-                                        <input
+                                        <input name=""
                                             class="block w-full text-sm text-gray-900 rounded-lg cursor-pointer bg-gray-50 file:mr-4 file:py-2 file:px-4 file:rounded-l-lg file:border-0 file:text-sm file:font-semibold file:bg-blue-50 file:text-blue-700"
                                             aria-describedby="input_swafoto_help" id="input_swafoto" type="file"
                                             required>

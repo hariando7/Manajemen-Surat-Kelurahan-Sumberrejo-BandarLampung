@@ -97,7 +97,7 @@
                                     Dokumen</a>
                             </li>
                             <li>
-                                <a href="/layanan-statu-permohonan" class="block px-4 py-2 hover:bg-[#2B2A4C]">Status
+                                <a href="/layanan-status-permohonan" class="block px-4 py-2 hover:bg-[#2B2A4C]">Status
                                     Permohonan</a>
                             </li>
                         </ul>

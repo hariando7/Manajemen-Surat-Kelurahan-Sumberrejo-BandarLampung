@@ -80,46 +80,48 @@
                             <div>
                                 <div class="font-bold text-black mb-5 text-lg">Data Orang Tua/Wali</div>
                                 <div class="mb-2">
-                                    <label for="nama-lengkap" class="block mb-2 text-sm font-medium text-gray-900">Nama
+                                    <label for="nama-lengkap-orang-tua"
+                                        class="block mb-2 text-sm font-medium text-gray-900">Nama
                                         Lengkap</label>
-                                    <input type="name" id="nama-lengkap" name=""
+                                    <input type="name" id="nama-lengkap-orang-tua" name=""
                                         class="bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-full p-2.5"
                                         placeholder="Nama Lengkap" required />
                                 </div>
                                 <div class="mb-2">
-                                    <label for="jeniskelamin" class="block mb-2 text-sm font-medium text-gray-900">Jenis
+                                    <label for="jenis-kelamin-orang-tua"
+                                        class="block mb-2 text-sm font-medium text-gray-900">Jenis
                                         Kelamin</label>
-                                    <select id="jeniskelamin"
+                                    <select id="jenis-kelamin-orang-tua"
                                         class="bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-full p-2.5"
                                         required>
-                                        <option selected>Pilih Jenis Kelamin</option>
+                                        <option value="" selected disabled>Pilih Jenis Kelamin</option>
                                         <option value="Pria">Pria</option>
                                         <option value="Wanita">Wanita</option>
                                     </select>
                                 </div>
                                 <div class="mb-2 relative">
-                                    <label for="tempat-lahir"
+                                    <label for="tempat-lahir-orang-tua"
                                         class="block mb-2 text-sm font-medium text-gray-900">Tempat
                                         Lahir</label>
-                                    <input type="name" id="tempat-lahir" placeholder="Tempat Lahir" name=""
+                                    <input type="name" id="tempat-lahir-orang-tua" placeholder="Tempat Lahir" name=""
                                         class="bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-full p-2.5"
                                         required />
                                 </div>
                                 <div class="mb-2 relative">
-                                    <label for="tanggal-lahir"
+                                    <label for="tanggal-lahir-orang-tua"
                                         class="block mb-2 text-sm font-medium text-gray-900">Tanggal
                                         Lahir</label>
-                                    <input type="date" id="tanggal-lahir" placeholder="Tanggal Lahir" name=""
+                                    <input type="date" id="tanggal-lahir-orang-tua" placeholder="Tanggal Lahir" name=""
                                         class="bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-full p-2.5"
                                         required />
                                 </div>
                                 <div class="mb-2">
-                                    <label for="agama"
+                                    <label for="agama-orang-tua"
                                         class="block mb-2 text-sm font-medium text-gray-900">Agama</label>
-                                    <select id="agama" name=""
+                                    <select id="agama-orang-tua" name=""
                                         class="bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-full p-2.5"
                                         required>
-                                        <option selected>Pilih Agama</option>
+                                        <option value="" selected disabled>Pilih Agama</option>
                                         <option value="Islam">Islam</option>
                                         <option value="Kristen Protestan">Kristen Protestan</option>
                                         <option value="Katolik">Katolik</option>
@@ -129,16 +131,16 @@
                                     </select>
                                 </div>
                                 <div class="mb-2 relative">
-                                    <label for="pekerjaan"
+                                    <label for="pekerjaan-orang-tua"
                                         class="block mb-2 text-sm font-medium text-gray-900">Pekerjaan</label>
-                                    <input type="name" id="pekerjaan" placeholder="Pekerjaan" name=""
+                                    <input type="name" id="pekerjaan-orang-tua" placeholder="Pekerjaan" name=""
                                         class="bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-full p-2.5"
                                         required />
                                 </div>
                                 <div class="mb-2 relative">
-                                    <label for="alamat"
+                                    <label for="alamat-orang-tua"
                                         class="block mb-2 text-sm font-medium text-gray-900">Alamat</label>
-                                    <input type="name" id="alamat" placeholder="Alamat" name=""
+                                    <input type="name" id="alamat-orang-tua" placeholder="Alamat" name=""
                                         class="bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-full p-2.5"
                                         required />
                                 </div>
@@ -158,7 +160,7 @@
                                     <select id="jeniskelamindiri"
                                         class="bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-full p-2.5"
                                         required>
-                                        <option selected>Pilih Jenis Kelamin</option>
+                                        <option value="" selected disabled>Pilih Jenis Kelamin</option>
                                         <option value="Pria">Pria</option>
                                         <option value="Wanita">Wanita</option>
                                     </select>
@@ -185,7 +187,7 @@
                                     <select id="agama-diri" name=""
                                         class="bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-full p-2.5"
                                         required>
-                                        <option selected>Pilih Agama</option>
+                                        <option value="" selected disabled>Pilih Agama</option>
                                         <option value="Islam">Islam</option>
                                         <option value="Kristen Protestan">Kristen Protestan</option>
                                         <option value="Katolik">Katolik</option>
@@ -294,25 +296,24 @@
                                     <label class="block mb-2 text-sm font-medium text-gray-900 dark:text-white"
                                         for="input_ktp">Upload file</label>
                                     <div class="relative">
-                                        <input
+                                        <input name=""
                                             class="block w-full text-sm text-gray-900 rounded-lg cursor-pointer bg-gray-50 file:mr-4 file:py-2 file:px-4 file:rounded-l-lg file:border-0 file:text-sm file:font-semibold file:bg-blue-50 file:text-blue-700"
                                             aria-describedby="input_ktp_help" id="input_ktp" type="file" required>
                                     </div>
                                 </div>
                             </div>
                             <div class="text-black">
-                                <div class="font-bold text-lg mb-2">Unggah KK Asli</div>
+                                <div class="font-bold text-lg mb-2">Unggah Foto KK</div>
                                 <div class="flex  mb-2">
                                     <div class="text-sm">
-                                        Pastikan wajah dan isi KTP terlihat jelas, KTP tidak menutupi muka, dan foto
-                                        tidak blur
+                                        Pastikan seluruh bagian KK berada dalam bingkai foto dan bukan fotokopi KK
                                     </div>
                                 </div>
                                 <div class="mb-5">
                                     <label class="block mb-2 text-sm font-medium text-gray-900 dark:text-white"
                                         for="input_swafoto">Upload file</label>
                                     <div class="relative">
-                                        <input
+                                        <input name=""
                                             class="block w-full text-sm text-gray-900 rounded-lg cursor-pointer bg-gray-50 file:mr-4 file:py-2 file:px-4 file:rounded-l-lg file:border-0 file:text-sm file:font-semibold file:bg-blue-50 file:text-blue-700"
                                             aria-describedby="input_swafoto_help" id="input_swafoto" type="file"
                                             required>
@@ -323,15 +324,15 @@
                                 <div class="font-bold text-lg mb-2">Unggah Surat Pengantar RT</div>
                                 <div class="flex  mb-2">
                                     <div class="text-sm">
-                                        Pastikan wajah dan isi KTP terlihat jelas, KTP tidak menutupi muka, dan foto
-                                        tidak blur
+                                        Pastikan seluruh bagian Surat Pengantar RT berada dalam bingkai foto dan bukan
+                                        fotokopi Surat Pengantar RT
                                     </div>
                                 </div>
                                 <div class="mb-5">
                                     <label class="block mb-2 text-sm font-medium text-gray-900 dark:text-white"
                                         for="input_swafoto">Upload file</label>
                                     <div class="relative">
-                                        <input
+                                        <input name=""
                                             class="block w-full text-sm text-gray-900 rounded-lg cursor-pointer bg-gray-50 file:mr-4 file:py-2 file:px-4 file:rounded-l-lg file:border-0 file:text-sm file:font-semibold file:bg-blue-50 file:text-blue-700"
                                             aria-describedby="input_swafoto_help" id="input_swafoto" type="file"
                                             required>

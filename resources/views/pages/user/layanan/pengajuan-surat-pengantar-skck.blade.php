@@ -4,7 +4,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Pengajuan Surat Domisili Usaha</title>
+    <title>Surat Pengantar SKCK</title>
     <link rel="icon" type="image/x-icon" href="/image/icon-logo.ico">
     {{-- Awal Tailwind --}}
     <script src="https://cdn.tailwindcss.com"></script>
@@ -70,7 +70,7 @@
                 <div class="mt-10 lg:mt-20 mb-10 lg:mb-20">
                     <div
                         class="font-bold text-4xl mb-5 lg:mb-10 mt-20 lg:mt-0 text-[#2B2A4C] underline underline-offset-4">
-                        Surat Keterangan Domisili Usaha
+                        Surat Pengantar SKCK
                     </div>
                     <div class="max-w-ful mb-5 lg:mb-10">
                         Silakan isi formulir berikut sesuai dengan data pada Kartu Tanda Penduduk (KTP) Anda.
@@ -80,38 +80,18 @@
                             <div>
                                 <div class="font-bold text-black mb-5 text-lg">Data Diri</div>
                                 <div class="mb-2">
-                                    <label for="nama-lengkap" class="block mb-2 text-sm font-medium text-gray-900">Nama
+                                    <label for="nama-lengkap-diri"
+                                        class="block mb-2 text-sm font-medium text-gray-900">Nama
                                         Lengkap</label>
-                                    <input type="name" id="nama-lengkap" name=""
+                                    <input type="name" id="nama-lengkap-diri" name=""
                                         class="bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-full p-2.5"
                                         placeholder="Nama Lengkap" required />
                                 </div>
                                 <div class="mb-2">
-                                    <label for="nik" class="block mb-2 text-sm font-medium text-gray-900">NIK</label>
-                                    <input type="number" id="nik" name=""
-                                        class="bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-full p-2.5"
-                                        placeholder="NIK" required />
-                                </div>
-                                <div class="mb-2 relative">
-                                    <label for="tempat-lahir"
-                                        class="block mb-2 text-sm font-medium text-gray-900">Tempat
-                                        Lahir</label>
-                                    <input type="name" id="tempat-lahir" placeholder="Tempat Lahir" name=""
-                                        class="bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-full p-2.5"
-                                        required />
-                                </div>
-                                <div class="mb-2 relative">
-                                    <label for="tanggal-lahir"
-                                        class="block mb-2 text-sm font-medium text-gray-900">Tanggal
-                                        Lahir</label>
-                                    <input type="date" id="tanggal-lahir" placeholder="Tanggal Lahir" name=""
-                                        class="bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-full p-2.5"
-                                        required />
-                                </div>
-                                <div class="mb-2">
-                                    <label for="jeniskelamin" class="block mb-2 text-sm font-medium text-gray-900">Jenis
+                                    <label for="jeniskelamindiri"
+                                        class="block mb-2 text-sm font-medium text-gray-900">Jenis
                                         Kelamin</label>
-                                    <select id="jeniskelamin" name=""
+                                    <select id="jeniskelamindiri"
                                         class="bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-full p-2.5"
                                         required>
                                         <option value="" selected disabled>Pilih Jenis Kelamin</option>
@@ -119,10 +99,41 @@
                                         <option value="Wanita">Wanita</option>
                                     </select>
                                 </div>
+                                <div class="mb-2 relative">
+                                    <label for="tempat-lahir-diri"
+                                        class="block mb-2 text-sm font-medium text-gray-900">Tempat
+                                        Lahir</label>
+                                    <input type="name" id="tempat-lahir-diri" placeholder="Tempat Lahir" name=""
+                                        class="bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-full p-2.5"
+                                        required />
+                                </div>
+                                <div class="mb-2 relative">
+                                    <label for="tanggal-lahir-diri"
+                                        class="block mb-2 text-sm font-medium text-gray-900">Tanggal
+                                        Lahir</label>
+                                    <input type="date" id="tanggal-lahir-diri" placeholder="Tanggal Lahir" name=""
+                                        class="bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-full p-2.5"
+                                        required />
+                                </div>
                                 <div class="mb-2">
-                                    <label for="agama"
+                                    <label for="status-perkawinan-diri"
+                                        class="block mb-2 text-sm font-medium text-gray-900">Status
+                                        Perkawinan</label>
+                                    <select id="status-perkawinan-diri" name=""
+                                        class="bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-full p-2.5"
+                                        required>
+                                        <option value="" selected disabled>Pilih Status
+                                            Perkawinan</option>
+                                        <option value="Belum Kawin">Belum Kawin</option>
+                                        <option value="Kawin">Kawin</option>
+                                        <option value="Cerai Hidup">Cerai Hidup</option>
+                                        <option value="Cerai Mati">Cerai Mati</option>
+                                    </select>
+                                </div>
+                                <div class="mb-2">
+                                    <label for="agama-diri"
                                         class="block mb-2 text-sm font-medium text-gray-900">Agama</label>
-                                    <select id="agama" name=""
+                                    <select id="agama-diri" name=""
                                         class="bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-full p-2.5"
                                         required>
                                         <option value="" selected disabled>Pilih Agama</option>
@@ -135,94 +146,16 @@
                                     </select>
                                 </div>
                                 <div class="mb-2 relative">
-                                    <label for="pekerjaan"
+                                    <label for="pekerjaan-diri"
                                         class="block mb-2 text-sm font-medium text-gray-900">Pekerjaan</label>
-                                    <input type="name" id="pekerjaan" placeholder="Pekerjaan" name=""
-                                        class="bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-full p-2.5"
-                                        required />
-                                </div>
-                                <div class="mb-2">
-                                    <label for="status-perkawinan"
-                                        class="block mb-2 text-sm font-medium text-gray-900">Status Perkawinan</label>
-                                    <select id="status-perkawinan" name=""
-                                        class="bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-full p-2.5"
-                                        required>
-                                        <option value="" selected disabled>Pilih Status Perkawinan</option>
-                                        <option value="Belum Kawin">Belum Kawin</option>
-                                        <option value="Kawin">Kawin</option>
-                                        <option value="Cerai Hidup">Cerai Hidu</option>
-                                        <option value="Cerai Mati">Cerai Mati</option>
-                                    </select>
-                                </div>
-                                <div class="mb-2 relative">
-                                    <label for="alamat-sesuai-kk"
-                                        class="block mb-2 text-sm font-medium text-gray-900">Alamat
-                                        Sesuai KK</label>
-                                    <input type="name" id="alamat-sesuai-kk" placeholder="Alamat Sesuai KK" name=""
-                                        class="bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-full p-2.5"
-                                        required />
-                                </div>
-                            </div>
-                            <div>
-                                <div class="font-bold text-black mt-10 mb-5">Data Usaha</div>
-                                <div class="mb-2">
-                                    <label for="nama-lembaga" class="block mb-2 text-sm font-medium text-gray-900">Nama
-                                        Lembaga</label>
-                                    <input type="name" id="nama-lembaga" name=""
-                                        class="bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-full p-2.5"
-                                        placeholder="Nama Lembaga" required />
-                                </div>
-                                <div class="mb-2">
-                                    <label for="npsn" class="block mb-2 text-sm font-medium text-gray-900">NPSN</label>
-                                    <input type="number" id="npsn" name=""
-                                        class="bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-full p-2.5"
-                                        placeholder="NPSN" required />
-                                </div>
-                                <div class="mb-2 relative">
-                                    <label for="tahun-berdiri"
-                                        class="block mb-2 text-sm font-medium text-gray-900">Tahun Berdiri</label>
-                                    <input type="name" id="tahun-berdiri" placeholder="Tahun Berdiri" name=""
+                                    <input type="name" id="pekerjaan-diri" placeholder="Pekerjaan" name=""
                                         class="bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-full p-2.5"
                                         required />
                                 </div>
                                 <div class="mb-2 relative">
-                                    <label for="alamat-lembaga"
-                                        class="block mb-2 text-sm font-medium text-gray-900">Alamat Lembaga</label>
-                                    <input type="name" id="alamat-lembaga" placeholder="Alamat Lembaga" name=""
-                                        class="bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-full p-2.5"
-                                        required />
-                                </div>
-                                <div class="mb-2 relative">
-                                    <label for="kelurahan"
-                                        class="block mb-2 text-sm font-medium text-gray-900">Kelurahan</label>
-                                    <input type="name" id="kelurahan" placeholder="Kelurahan" name=""
-                                        class="bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-full p-2.5"
-                                        required />
-                                </div>
-                                <div class="mb-2 relative">
-                                    <label for="kecamatan"
-                                        class="block mb-2 text-sm font-medium text-gray-900">Kecamatan</label>
-                                    <input type="name" id="kecamatan" placeholder="Kecamatan" name=""
-                                        class="bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-full p-2.5"
-                                        required />
-                                </div>
-                                <div class="mb-2 relative">
-                                    <label for="kota" class="block mb-2 text-sm font-medium text-gray-900">Kota</label>
-                                    <input type="name" id="kota" placeholder="Kota" name=""
-                                        class="bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-full p-2.5"
-                                        required />
-                                </div>
-                                <div class="mb-2 relative">
-                                    <label for="provinsi"
-                                        class="block mb-2 text-sm font-medium text-gray-900">Provinsi</label>
-                                    <input type="name" id="provinsi" placeholder="Provinsi" name=""
-                                        class="bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-full p-2.5"
-                                        required />
-                                </div>
-                                <div class="mb-2 relative">
-                                    <label for="keperluan"
-                                        class="block mb-2 text-sm font-medium text-gray-900">Keperluan</label>
-                                    <input type="name" id="keperluan" placeholder="Keperluan" name=""
+                                    <label for="alamat-diri"
+                                        class="block mb-2 text-sm font-medium text-gray-900">Alamat</label>
+                                    <input type="name" id="alamat-diri" placeholder="Alamat" name=""
                                         class="bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-full p-2.5"
                                         required />
                                 </div>
