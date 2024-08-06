@@ -6,12 +6,12 @@
 </button>
 
 <aside id="logo-sidebar" class="fixed top-0 left-0 z-40 w-64 h-screen transition-transform -translate-x-full sm:translate-x-0" aria-label="Sidebar">
-    <div class="h-full px-3 py-4 overflow-y-auto">
+    <div class="border-2 h-full px-3 py-4 overflow-y-auto">
         <div class="flex pb-8">
             <img src="/image/logo-balam.png" class="h-10 w-10 me-3 sm:h-10 items-center" alt="Flowbite Logo" />
             <div class="">
                 <h1 class="self-center font-semibold whitespace-nowrap dark:text-black">Kelurahan Sumberrejo</h1>
-                <h2 class="self-center font-semibold whitespace-nowrap dark:text-black">Kecamatan Kemiling</h2>
+                <h2 class="self-center font-semibold whitespace-nowrap dark:text-black font-light">Kecamatan Kemiling</h2>
             </div>
         </div>
         <ul class="space-y-2 font-medium">
@@ -72,58 +72,3 @@
         </ul>
     </div>
 </aside>
-
-<div class="p-4 sm:ml-64">
-    <div class="p-4">
-        <div class="grid grid-cols-1 gap-4 mb-4 pl-72 pr-72">
-            <div class="flex items-center pl-4 h-28 rounded-2xl bg-gray-50 dark:bg-gray-800">
-                <p class="text-2xl">
-                    <svg xmlns="http://www.w3.org/2000/svg" width="72" height="72" viewBox="0 0 24 24" fill="none" stroke="white" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-book-text">
-                        <path d="M4 19.5v-15A2.5 2.5 0 0 1 6.5 2H19a1 1 0 0 1 1 1v18a1 1 0 0 1-1 1H6.5a1 1 0 0 1 0-5H20" />
-                        <path d="M8 11h8" />
-                        <path d="M8 7h6" /></svg>
-                </p>
-            </div>
-        </div>
-    </div>
-    <div class="p-4">
-        <div class="grid grid-cols-2 gap-4 mb-4">
-            <div class="flex items-center pl-4 h-28 rounded-2xl bg-gray-50 dark:bg-gray-800">
-                <p class="text-2xl">
-                    <svg xmlns="http://www.w3.org/2000/svg" width="72" height="72" viewBox="0 0 24 24" fill="none" stroke="white" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-book-text">
-                        <path d="M4 19.5v-15A2.5 2.5 0 0 1 6.5 2H19a1 1 0 0 1 1 1v18a1 1 0 0 1-1 1H6.5a1 1 0 0 1 0-5H20" />
-                        <path d="M8 11h8" />
-                        <path d="M8 7h6" /></svg>
-                </p>
-            </div>
-            <div class="flex items-center pl-4 h-28 rounded-2xl bg-gray-50 dark:bg-gray-800">
-                <p class="text-2xl">
-                    <svg xmlns="http://www.w3.org/2000/svg" width="72" height="72" viewBox="0 0 24 24" fill="none" stroke="white" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-book-text">
-                        <path d="M4 19.5v-15A2.5 2.5 0 0 1 6.5 2H19a1 1 0 0 1 1 1v18a1 1 0 0 1-1 1H6.5a1 1 0 0 1 0-5H20" />
-                        <path d="M8 11h8" />
-                        <path d="M8 7h6" /></svg>
-                </p>
-            </div>
-        </div>
-    </div>
-    <div class="p-4">
-        <div class="grid grid-cols-2 gap-4 mb-4">
-            <div class="flex items-center pl-4 h-28 rounded-2xl bg-gray-50 dark:bg-gray-800">
-                <p class="text-2xl">
-                    <svg xmlns="http://www.w3.org/2000/svg" width="72" height="72" viewBox="0 0 24 24" fill="none" stroke="white" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-book-text">
-                        <path d="M4 19.5v-15A2.5 2.5 0 0 1 6.5 2H19a1 1 0 0 1 1 1v18a1 1 0 0 1-1 1H6.5a1 1 0 0 1 0-5H20" />
-                        <path d="M8 11h8" />
-                        <path d="M8 7h6" /></svg>
-                </p>
-            </div>
-            <div class="flex items-center pl-4 h-28 rounded-2xl bg-gray-50 dark:bg-gray-800">
-                <p class="text-2xl">
-                    <svg xmlns="http://www.w3.org/2000/svg" width="72" height="72" viewBox="0 0 24 24" fill="none" stroke="white" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-book-text">
-                        <path d="M4 19.5v-15A2.5 2.5 0 0 1 6.5 2H19a1 1 0 0 1 1 1v18a1 1 0 0 1-1 1H6.5a1 1 0 0 1 0-5H20" />
-                        <path d="M8 11h8" />
-                        <path d="M8 7h6" /></svg>
-                </p>
-            </div>
-        </div>
-    </div>
-</div>

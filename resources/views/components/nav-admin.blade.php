@@ -1,6 +1,6 @@
 {{-- Awal Navbar --}}
 <nav class="relative h-20 w-full  ">
-    <div class="absolute top-0 right-0 h-16 w-[1264px] bg-[#D72323]">
+    <div class="fixed top-0 right-0 h-16 w-[1280px] bg-[#D72323]">
         <div class="max-w-screen-xl flex flex-wrap items-center mx-auto p-4 justify-between">
             <div class="flex justify-end">
                 {{-- <button data-collapse-toggle="navbar-solid-bg" type="button" class="inline-flex items-center p-2 w-10 h-10 justify-center text-sm text-white rounded-lg md:hidden hover:bg-gray-100 focus:outline-none focus:ring-2 focus:ring-gray-200" aria-controls="navbar-solid-bg" aria-expanded="false">

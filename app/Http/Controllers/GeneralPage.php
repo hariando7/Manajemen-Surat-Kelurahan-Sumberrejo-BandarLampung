@@ -116,5 +116,8 @@ class GeneralPage extends Controller
     function dashboard () {
         return view('pages/admin/dashboard');
     }
+    function manajemensurat () {
+        return view('pages/admin/manajemen-surat');
+    }
     // Akhir Admin
 }
