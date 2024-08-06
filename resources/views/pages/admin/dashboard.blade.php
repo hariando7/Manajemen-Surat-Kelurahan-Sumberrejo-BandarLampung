@@ -22,7 +22,9 @@
 </head>
 
 <body>
+<x-nav-admin/>
 <x-sidebar-admin/>
+<x-footer-admin/>
 </body>
 
 </html>
