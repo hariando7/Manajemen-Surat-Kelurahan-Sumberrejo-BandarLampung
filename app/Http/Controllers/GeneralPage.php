@@ -119,5 +119,11 @@ class GeneralPage extends Controller
     function manajemensurat () {
         return view('pages/admin/manajemen-surat');
     }
+    function laporanmasuk () {
+        return view('pages/admin/laporan-masuk');
+    }
+    function lihatlaporan () {
+        return view('pages/admin/lihat-laporan');
+    }
     // Akhir Admin
 }

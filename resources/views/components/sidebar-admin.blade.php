@@ -16,7 +16,7 @@
         </div>
         <ul class="space-y-2 font-medium">
             <li>
-                <a href="#" class="bg-[#B2ACAC] flex items-center p-1 text-gray-900 rounded-lg dark:text-white hover:bg-gray-100 dark:hover:bg-gray-700 group">
+                <a href="dashboard" class="bg-[#B2ACAC] flex items-center p-1 text-gray-900 rounded-lg dark:text-white hover:bg-gray-100 dark:hover:bg-gray-700 group">
                     <span class="flex-1 text-center">Dashboard</span>
                 </a>
             </li>
@@ -37,7 +37,7 @@
                 </ul>
             </li>
             <li>
-                <a href="#" class="bg-[#B2ACAC] flex items-center p-1 text-gray-900 rounded-lg dark:text-white hover:bg-gray-100 dark:hover:bg-gray-700 group">
+                <a href="/laporan-masuk" class="bg-[#B2ACAC] flex items-center p-1 text-gray-900 rounded-lg dark:text-white hover:bg-gray-100 dark:hover:bg-gray-700 group">
                     <span class="flex-1 text-center whitespace-nowrap">Pelaporan</span>
                 </a>
             </li>

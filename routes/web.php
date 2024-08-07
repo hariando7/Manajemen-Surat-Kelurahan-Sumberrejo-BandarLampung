@@ -63,5 +63,7 @@ Route::controller(GeneralPage::class)->group(function () {
     Route::get('/login-admin', 'login');
     Route::get('/dashboard', 'dashboard');
     Route::get('/manajemen-surat', 'manajemensurat');
+    Route::get('/laporan-masuk', 'laporanmasuk');
+    Route::get('/lihat-laporan', 'lihatlaporan');
     // Akhir Admin
 });
