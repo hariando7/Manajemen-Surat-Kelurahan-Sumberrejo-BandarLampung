@@ -125,5 +125,8 @@ class GeneralPage extends Controller
     function lihatlaporan () {
         return view('pages/admin/lihat-laporan');
     }
+    function informasi () {
+        return view('pages/admin/informasi/informasi');
+    }
     // Akhir Admin
 }

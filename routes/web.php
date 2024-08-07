@@ -65,5 +65,6 @@ Route::controller(GeneralPage::class)->group(function () {
     Route::get('/manajemen-surat', 'manajemensurat');
     Route::get('/laporan-masuk', 'laporanmasuk');
     Route::get('/lihat-laporan', 'lihatlaporan');
+    Route::get('/informasi', 'informasi');
     // Akhir Admin
 });
