@@ -120,10 +120,10 @@ class GeneralPage extends Controller
         return view('pages/admin/manajemen-surat');
     }
     function laporanmasuk () {
-        return view('pages/admin/laporan-masuk');
+        return view('pages/admin/pelaporan/laporan-masuk');
     }
     function lihatlaporan () {
-        return view('pages/admin/lihat-laporan');
+        return view('pages/admin/pelaporan/lihat-laporan');
     }
     function informasi () {
         return view('pages/admin/informasi/informasi');
