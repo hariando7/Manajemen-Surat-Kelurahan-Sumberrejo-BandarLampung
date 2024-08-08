@@ -134,8 +134,17 @@ class GeneralPage extends Controller
     function tambahberita () {
         return view('pages/admin/informasi/tambah-berita');
     }
+    function editberita () {
+        return view('pages/admin/informasi/edit-berita');
+    }
     function daftarpengumuman () {
         return view('pages/admin/informasi/daftar-pengumuman');
+    }
+    function tambahpengumuman () {
+        return view('pages/admin/informasi/tambah-pengumuman');
+    }
+    function editpengumuman () {
+        return view('pages/admin/informasi/edit-pengumuman');
     }
     // Akhir Admin
 }

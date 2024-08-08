@@ -4,7 +4,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Tambah Berita</title>
+    <title>Tambah Pengumuman</title>
     <link rel="icon" type="image/x-icon" href="/assets/">
     {{-- Awal Tailwind --}}
     <script src="https://cdn.tailwindcss.com"></script>
@@ -24,10 +24,10 @@
     <x-nav-admin />
     <x-sidebar-admin />
     <div class="pb-4 pl-4 pr-4 sm:ml-64">
-        <h1 class="text-3xl font-bold pb-4">Tambah Berita</h1>
+        <h1 class="text-3xl font-bold pb-4">Tambah Pengumuman</h1>
         <div class="flex pb-2">
             <div class="">
-                <a href="/daftar-berita" class="bg-[#2B2A4C] w-32 flex items-center p-1 text-gray-900 rounded-lg dark:text-white hover:bg-gray-100 dark:hover:bg-gray-700 group">
+                <a href="/daftar-pengumuman" class="bg-[#2B2A4C] w-32 flex items-center p-1 text-gray-900 rounded-lg dark:text-white hover:bg-gray-100 dark:hover:bg-gray-700 group">
                     <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-arrow-left">
                         <path d="m12 19-7-7 7-7" />
                         <path d="M19 12H5" /></svg>
@@ -37,8 +37,8 @@
         </div>
         <div class="relative overflow-x-auto">
             <!-- Form Section -->
-            <div class="bg-[#F5F3F3] pb-20 p-6 rounded-lg shadow-lg">
-                <h2 class="text-xl font-semibold mb-4 text-center">Informasi Berita</h2>
+            <div class="bg-[#F5F3F3] pb-16 p-6 rounded-lg shadow-lg">
+                <h2 class="text-xl font-semibold mb-4 text-center">Informasi Pengumuman</h2>
                 <div class="grid grid-cols-1 md:grid-cols-2 gap-4">
                     <!-- Drag and Drop Section -->
                     <div class="flex flex-col items-center justify-center  border-gray-300 rounded-lg h-64 bg-[#D9D9D9]" id="dropzone">
@@ -57,15 +57,28 @@
                         </div>
                     </div>
                     <!-- Form Fields -->
-                    <div class="space-y-4">
+                    <div class="space-y-4 pb-4">
                         <div>
-                            <input type="text" id="judul" name="judul" class="bg-[#F5F3F3] mt-1 block w-full px-3 py-2 border border-gray-600 rounded-md shadow-sm focus:outline-none focus:ring-indigo-500 focus:border-indigo-500 sm:text-sm" placeholder="Judul Berita">
+                            <input type="text" id="judul" name="judul" class="bg-[#F5F3F3] mt-1 block w-full px-3 py-2 border border-gray-600 rounded-md shadow-sm focus:outline-none focus:ring-indigo-500 focus:border-indigo-500 sm:text-sm" placeholder="Nama Pengumuman">
                         </div>
                         <div>
-                            <textarea id="isi" name="isi" rows="4" class="bg-[#F5F3F3] mt-1 block w-full px-3 py-2 border border-gray-600 rounded-md shadow-sm focus:outline-none focus:ring-indigo-500 focus:border-indigo-500 sm:text-sm" placeholder="Isi Berita"></textarea>
+                            <input type="date" id="tanggal" name="" class="bg-[#F5F3F3] mt-1 block w-full px-3 py-2 border border-gray-600 rounded-md shadow-sm focus:outline-none focus:ring-indigo-500 focus:border-indigo-500 sm:text-sm text">
                         </div>
                         <div>
-                            <input type="date" id="tanggal" name="" class="bg-[#F5F3F3] mt-1 block w-full px-3 py-2 border border-gray-600 rounded-md shadow-sm focus:outline-none focus:ring-indigo-500 focus:border-indigo-500 sm:text-sm">
+                            <input type="text" id="tempat" name="tempat" class="bg-[#F5F3F3] mt-1 block w-full px-3 py-2 border border-gray-600 rounded-md shadow-sm focus:outline-none focus:ring-indigo-500 focus:border-indigo-500 sm:text-sm" placeholder="Tempat">
+                        </div>
+                        <div>
+                            <textarea id="isi" name="isi" rows="4" class="bg-[#F5F3F3] mt-1 block w-full px-3 py-2 border border-gray-600 rounded-md shadow-sm focus:outline-none focus:ring-indigo-500 focus:border-indigo-500 sm:text-sm" placeholder="Isi Pengumuman"></textarea>
+                        </div>
+                        <div class="flex items-center space-x-4 mt-4 ">
+                            <label class="py-1 flex items-center border border-gray-600 rounded-md rounded-md pl-2 w-[50%]">
+                                <input type="radio" name="status" value="Terlaksana" class="form-radio text-indigo-600 bg-[#F5F3F3]">
+                                <span class="ml-6 text-sm text-gray-600 font-light">Terlaksana</span>
+                            </label>
+                            <label class="py-1 flex items-center border border-gray-600 rounded-md rounded-md pl-2 w-[50%]">
+                                <input type="radio" name="status" value="Belum Terlaksana" class="form-radio text-indigo-600 bg-[#F5F3F3]">
+                                <span class="ml-6 text-sm text-gray-600 font-light">Belum Terlaksana</span>
+                            </label>
                         </div>
                     </div>
                 </div>

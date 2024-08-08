@@ -4,7 +4,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Tambah Berita</title>
+    <title>Edit Berita</title>
     <link rel="icon" type="image/x-icon" href="/assets/">
     {{-- Awal Tailwind --}}
     <script src="https://cdn.tailwindcss.com"></script>
@@ -24,7 +24,7 @@
     <x-nav-admin />
     <x-sidebar-admin />
     <div class="pb-4 pl-4 pr-4 sm:ml-64">
-        <h1 class="text-3xl font-bold pb-4">Tambah Berita</h1>
+        <h1 class="text-3xl font-bold pb-4">Edit Berita</h1>
         <div class="flex pb-2">
             <div class="">
                 <a href="/daftar-berita" class="bg-[#2B2A4C] w-32 flex items-center p-1 text-gray-900 rounded-lg dark:text-white hover:bg-gray-100 dark:hover:bg-gray-700 group">

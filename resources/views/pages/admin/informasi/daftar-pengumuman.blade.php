@@ -4,7 +4,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Dashboard Admin </title>
+    <title>Daftar Pengumuman</title>
     <link rel="icon" type="image/x-icon" href="/assets/">
     {{-- Awal Tailwind --}}
     <script src="https://cdn.tailwindcss.com"></script>
@@ -29,7 +29,7 @@
         <x-search-admin />
         <div class="flex pb-2">
             <div class="">
-                <a href="/laporan-masuk" class="bg-[#2B2A4C] w-32 flex items-center p-1 text-gray-900 rounded-lg dark:text-white hover:bg-gray-100 dark:hover:bg-gray-700 group">
+                <a href="/informasi" class="bg-[#2B2A4C] w-32 flex items-center p-1 text-gray-900 rounded-lg dark:text-white hover:bg-gray-100 dark:hover:bg-gray-700 group">
                     <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-arrow-left">
                         <path d="m12 19-7-7 7-7" />
                         <path d="M19 12H5" /></svg>
@@ -37,7 +37,7 @@
                 </a>
             </div>
             <div class="absolute top-30 right-5 flex justify-between items-center rounded-md">
-                <a href="#" class="bg-[#2B2A4C] w-56 flex items-center p-1 text-gray-900 rounded-lg dark:text-white hover:bg-gray-100 dark:hover:bg-gray-700 group">
+                <a href="/tambah-pengumuman" class="bg-[#2B2A4C] w-56 flex items-center p-1 text-gray-900 rounded-lg dark:text-white hover:bg-gray-100 dark:hover:bg-gray-700 group">
                     <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-plus">
                         <path d="M5 12h14" />
                         <path d="M12 5v14" /></svg>
@@ -92,7 +92,7 @@
                                         <path d="M10.5 12.5C11.8807 12.5 13 11.3807 13 10C13 8.61929 11.8807 7.5 10.5 7.5C9.11929 7.5 8 8.61929 8 10C8 11.3807 9.11929 12.5 10.5 12.5Z" stroke="black" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
                                     </svg>
                                 </a>
-                                <a href="#" class="mr-2">
+                                <a href="/edit-pengumuman" class="mr-2">
                                     <svg width="21" height="20" viewBox="0 0 21 20" fill="none" xmlns="http://www.w3.org/2000/svg">
                                         <path d="M14.6666 2.50037C14.8789 2.24956 15.1414 2.04542 15.4375 1.90094C15.7336 1.75646 16.0567 1.67481 16.3863 1.66121C16.716 1.64761 17.0448 1.70235 17.3519 1.82194C17.6591 1.94153 17.9378 2.12335 18.1702 2.3558C18.4027 2.58826 18.5838 2.86625 18.7021 3.17207C18.8203 3.47788 18.8732 3.80481 18.8571 4.13202C18.8411 4.45922 18.7566 4.77952 18.609 5.07251C18.4615 5.36549 18.254 5.62473 18 5.8337L6.74996 17.0837L2.16663 18.3337L3.41663 13.7504L14.6666 2.50037Z" stroke="black" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
                                         <path d="M13 4.16699L16.3333 7.50033" stroke="black" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />

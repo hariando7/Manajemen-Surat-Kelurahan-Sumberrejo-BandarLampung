@@ -68,6 +68,9 @@ Route::controller(GeneralPage::class)->group(function () {
     Route::get('/informasi', 'informasi');
     Route::get('/daftar-berita', 'daftarberita');
     Route::get('/tambah-berita', 'tambahberita');
+    Route::get('/edit-berita', 'editberita');
     Route::get('/daftar-pengumuman', 'daftarpengumuman');
+    Route::get('/tambah-pengumuman', 'tambahpengumuman');
+    Route::get('/edit-pengumuman', 'editpengumuman');
     // Akhir Admin
 });
