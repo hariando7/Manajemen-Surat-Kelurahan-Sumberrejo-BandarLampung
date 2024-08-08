@@ -26,17 +26,7 @@
     <x-sidebar-admin />
     <div class="pb-4 pl-4 pr-4 sm:ml-64">
         <h1 class="text-3xl font-bold pb-4">Pengajuan Dokumen</h1>
-        <form class="pb-2 max-w-md mx-auto">
-            <label for="default-search" class="mb-2 text-sm font-medium text-gray-900 sr-only dark:text-white">Search</label>
-            <div class="relative">
-                <div class="absolute inset-y-0 start-0 flex items-center ps-3 pointer-events-none">
-                    <svg class="w-4 h-4 text-gray-500 dark:text-gray-400" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 20 20">
-                        <path stroke="black" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="m19 19-4-4m0-7A7 7 0 1 1 1 8a7 7 0 0 1 14 0Z" />
-                    </svg>
-                </div>
-                <input type="search" id="default-search" class="block w-full p-2 ps-10 text-sm rounded-lg  bg-[#B2ACAC] dark:placeholder-black-400 dark:text-black" placeholder="Search" required />
-            </div>
-        </form>
+        <x-search-admin />
         <div class="relative overflow-x-auto">
             <table class="w-full text-sm text-left">
                 <thead class="bg-gray-700 text-white ">
