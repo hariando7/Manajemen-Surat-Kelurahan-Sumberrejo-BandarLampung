@@ -57,10 +57,10 @@
                 </button>
                 <ul id="dropdown" class="hidden py-2 space-y-2 flex flex-col items-end">
                     <li>
-                        <a href="#" class="bg-[#D72323] flex items-center w-[150px] justify-center p-1 text-base font-normal text-gray-900 transition duration-75 rounded-lg group hover:bg-gray-100 dark:text-white dark:hover:bg-gray-700">Daftar Akun</a>
+                        <a href="/daftar-akun" class="bg-[#D72323] flex items-center w-[150px] justify-center p-1 text-base font-normal text-gray-900 transition duration-75 rounded-lg group hover:bg-gray-100 dark:text-white dark:hover:bg-gray-700">Daftar Akun</a>
                     </li>
                     <li>
-                        <a href="#" class="bg-[#D72323] flex items-center w-[150px] justify-center p-1 text-base font-normal text-gray-900 transition duration-75 rounded-lg group hover:bg-gray-100 dark:text-white dark:hover:bg-gray-700">Permohonan Akun</a>
+                        <a href="/permohonan-akun" class="bg-[#D72323] flex items-center w-[150px] justify-center p-1 text-base font-normal text-gray-900 transition duration-75 rounded-lg group hover:bg-gray-100 dark:text-white dark:hover:bg-gray-700">Permohonan Akun</a>
                     </li>
                 </ul>
             </li>

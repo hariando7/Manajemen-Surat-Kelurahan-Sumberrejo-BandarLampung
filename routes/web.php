@@ -75,5 +75,9 @@ Route::controller(GeneralPage::class)->group(function () {
     Route::get('/list-galeri', 'listgaleri');
     Route::get('/tambah-foto-video', 'tambahfotovideo');
     Route::get('/edit-foto-video', 'editfotovideo');
+    Route::get('/daftar-akun', 'daftarakun');
+    Route::get('/lihat-akun', 'lihatakun');
+    Route::get('/permohonan-akun', 'permohonanakun');
+    Route::get('/lihat-permohonan-akun', 'lihatpermohonanakun');
     // Akhir Admin
 });

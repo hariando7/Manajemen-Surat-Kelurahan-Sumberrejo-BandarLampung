@@ -155,5 +155,17 @@ class GeneralPage extends Controller
     function editfotovideo () {
         return view('pages/admin/galeri/edit-foto-video');
     }
+    function daftarakun () {
+        return view('pages/admin/kelolaakun/daftar-akun');
+    }
+    function lihatakun () {
+        return view('pages/admin/kelolaakun/lihat-akun');
+    }
+    function permohonanakun () {
+        return view('pages/admin/kelolaakun/permohonan-akun');
+    }
+    function lihatpermohonanakun () {
+        return view('pages/admin/kelolaakun/lihat-permohonan-akun');
+    }
     // Akhir Admin
 }
