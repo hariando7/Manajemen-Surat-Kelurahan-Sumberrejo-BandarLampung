@@ -72,5 +72,8 @@ Route::controller(GeneralPage::class)->group(function () {
     Route::get('/daftar-pengumuman', 'daftarpengumuman');
     Route::get('/tambah-pengumuman', 'tambahpengumuman');
     Route::get('/edit-pengumuman', 'editpengumuman');
+    Route::get('/list-galeri', 'listgaleri');
+    Route::get('/tambah-foto-video', 'tambahfotovideo');
+    Route::get('/edit-foto-video', 'editfotovideo');
     // Akhir Admin
 });

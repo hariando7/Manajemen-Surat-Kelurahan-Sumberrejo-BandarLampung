@@ -146,5 +146,14 @@ class GeneralPage extends Controller
     function editpengumuman () {
         return view('pages/admin/informasi/edit-pengumuman');
     }
+    function listgaleri () {
+        return view('pages/admin/galeri/list-galeri');
+    }
+    function tambahfotovideo () {
+        return view('pages/admin/galeri/tambah-foto-video');
+    }
+    function editfotovideo () {
+        return view('pages/admin/galeri/edit-foto-video');
+    }
     // Akhir Admin
 }
