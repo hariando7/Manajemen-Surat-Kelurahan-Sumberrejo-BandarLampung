@@ -113,6 +113,9 @@ class GeneralPage extends Controller
     // Akhur User
 
     // Awal Admin
+    function loginadmin () {
+        return view('pages/admin/login-admin');
+    }
     function dashboard () {
         return view('pages/admin/dashboard');
     }

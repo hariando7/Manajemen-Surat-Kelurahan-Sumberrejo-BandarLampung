@@ -60,7 +60,7 @@ Route::controller(GeneralPage::class)->group(function () {
     // Akhir User
 
     // Awal Admin
-    Route::get('/login-admin', 'login');
+    Route::get('/login-admin', 'loginadmin');
     Route::get('/dashboard', 'dashboard');
     Route::get('/manajemen-surat', 'manajemensurat');
     Route::get('/laporan-masuk', 'laporanmasuk');
