@@ -5,7 +5,7 @@
     </svg>
 </button>
 
-<aside id="logo-sidebar" class="fixed top-0 left-0 z-40 w-64 h-screen transition-transform -translate-x-full sm:translate-x-0" aria-label="Sidebar">
+<aside id="logo-sidebar" class="fixed top-0 left-0 z-40 w-64 h-screen transition-transform -translate-x-full sm:translate-x-0 bg-white" aria-label="Sidebar">
     <div class="border-2 h-full px-3 py-4 overflow-y-auto">
         <div class="flex pb-8">
             <img src="/image/logo-balam.png" class="h-10 w-10 me-3 sm:h-10 items-center" alt="Flowbite Logo" />

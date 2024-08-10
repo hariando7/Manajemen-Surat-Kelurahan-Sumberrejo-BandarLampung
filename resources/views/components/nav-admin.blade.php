@@ -1,6 +1,6 @@
 {{-- Awal Navbar --}}
 <nav class="relative h-20 w-full  ">
-    <div class="fixed top-0 right-0 h-16 w-[1280px] bg-[#D72323]">
+    <div class="fixed top-0 right-0 h-16 w-full bg-[#D72323] sm:ml-64">
         <div class="max-w-screen-xl flex flex-wrap items-center mx-auto p-4 justify-between">
             <div class="flex justify-end">
                 {{-- <button data-collapse-toggle="navbar-solid-bg" type="button" class="inline-flex items-center p-2 w-10 h-10 justify-center text-sm text-white rounded-lg md:hidden hover:bg-gray-100 focus:outline-none focus:ring-2 focus:ring-gray-200" aria-controls="navbar-solid-bg" aria-expanded="false">
@@ -13,7 +13,7 @@
             <div class="hidden w-full md:block md:w-auto" id="navbar-solid-bg">
                 <ul class="flex flex-col font-medium mt-4 rounded-lg bg-gray-50 md:space-x-8 rtl:space-x-reverse md:flex-row md:mt-0 md:border-0 md:bg-transparent lg:items-center">
                     <li>
-                        <div class="flex absolute lg:relative ml-[43%] lg:ml-0">
+                        <div class="flex absolute right-8">
                             <h1 class="flex pr-4 text-white">Admin</h1>
                             <button type="button" class="flex text-sm bg-gray-800 lg:bg-transparent rounded-full md:me-0 focus:ring-4 focus:ring-gray-300 justify-end mx-auto" id="user-menu-button" aria-expanded="false" data-dropdown-toggle="user-dropdown" data-dropdown-placement="bottom">
                                 <span class="sr-only">Open user menu</span>
