@@ -26,14 +26,14 @@
     <x-sidebar-admin />
     <div class="pb-4 pl-4 pr-4 sm:ml-64">
         <h1 class="text-3xl font-bold pb-4">Daftar Akun</h1>
-        <div class="">
+        {{-- <div class="">
             <a href="/daftar-akun" class="bg-[#2B2A4C] w-32 flex items-center p-1 text-gray-900 rounded-lg dark:text-white hover:bg-gray-100 dark:hover:bg-gray-700 group">
                 <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-arrow-left">
                     <path d="m12 19-7-7 7-7" />
                     <path d="M19 12H5" /></svg>
                 <span class="pl-3 font-bold flex-1 whitespace-nowrap">Kembali</span>
             </a>
-        </div>
+        </div> --}}
         <div class="flex mx-auto w-[60%] grid grid-cols-1 lg:grid-cols-2 gap-2 lg:gap-16">
             <div class="spaye-y-4">
                 <div class="pb-2">
@@ -64,12 +64,14 @@
             <div class="">
                 <div class="pb-4">
                     <label for="ktp" class="block text-sm font-medium text-gray-700">Foto KTP</label>
-                    <div class="w-full bg-gray-300 h-36 mt-2">
+                    <div class="w-full h-36 mt-2">
+                        <img class="mx-auto h-full object-cover" src="image/ktp-fake.png" />
                     </div>
                 </div>
                 <div class="">
                     <label for="swafoto" class="block text-sm font-medium text-gray-700">Swafoto</label>
-                    <div class="w-full bg-gray-300 h-36 mt-2">
+                    <div class="w-full h-36 mt-2">
+                        <img class="mx-auto h-full object-cover" src="image/ktp-fake.png" />
                     </div>
                 </div>
             </div>
