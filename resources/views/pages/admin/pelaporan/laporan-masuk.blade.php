@@ -106,8 +106,10 @@
                             $2999
                         </td>
                     </tr>
+                    
                 </tbody>
             </table>
+            <x-pagination-admin/>
         </div>
 
     </div>
