@@ -66,6 +66,9 @@ Route::controller(GeneralPage::class)->group(function () {
     Route::get('/surat-masuk', 'suratmasuk');
     Route::get('/tambah-surat-masuk', 'tambahsuratmasuk');
     Route::get('/lihat-surat-masuk', 'lihatsuratmasuk');
+    Route::get('/arsip-surat', 'arsipsurat');
+    Route::get('/lihat-arsip-surat-masuk', 'lihatarsipsuratmasuk');
+    Route::get('/lihat-arsip-surat-keluar', 'lihatarsipsuratkeluar');
 
     Route::get('/laporan-masuk', 'laporanmasuk');
     Route::get('/lihat-laporan', 'lihatlaporan');

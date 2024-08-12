@@ -131,6 +131,15 @@ class GeneralPage extends Controller
     function lihatsuratmasuk () {
         return view('pages/admin/manajemen-surat/surat-masuk/lihat-surat-masuk');
     }
+    function arsipsurat () {
+        return view('pages/admin/manajemen-surat/arsip-surat/arsip-surat');
+    }
+    function lihatarsipsuratmasuk () {
+        return view('pages/admin/manajemen-surat/arsip-surat/lihat-arsip-surat-masuk');
+    }
+    function lihatarsipsuratkeluar () {
+        return view('pages/admin/manajemen-surat/arsip-surat/lihat-arsip-surat-keluar');
+    }
 
     function laporanmasuk () {
         return view('pages/admin/pelaporan/laporan-masuk');
