@@ -30,7 +30,7 @@
             </div>
             <div class="overflow-x-auto ">
                 <!-- Form Section -->
-                <div class="bg-[#F5F3F3] pb-20 p-6 rounded-lg   ">
+                <div class="bg-[#F5F3F3] pb-8 p-6 rounded-lg   ">
                     <h2 class="text-xl font-semibold text-center">Input Surat Keluar</h2>
                     <div class="mx-auto w-[90%]">
                         <!-- Form Fields -->

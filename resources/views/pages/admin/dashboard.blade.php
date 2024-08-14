@@ -26,7 +26,7 @@
     <x-sidebar-admin />
     <div class="pb-4 pl-4 pr-4 sm:ml-64">
         <h1 class="text-3xl font-bold pb-4">Selamat Datang, Admin</h1>
-        <div class="p-4">
+        <div class="p-2">
             <div class="grid grid-cols-1 gap-4 mb-4 pl-72 pr-72">
                 <div class="flex items-center pl-4 h-28 rounded-2xl bg-[#2B2A4C]">
                     <svg xmlns="http://www.w3.org/2000/svg" width="72" height="72" viewBox="0 0 24 24" fill="none" stroke="white" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-book-text">
@@ -41,7 +41,7 @@
                 </div>
             </div>
         </div>
-        <div class="p-4">
+        <div class="p-2">
             <div class="grid grid-cols-2 gap-4 mb-4">
                 <div class="flex items-center pl-4 h-28 rounded-2xl bg-[#2B2A4C]">
                     <svg xmlns="http://www.w3.org/2000/svg" width="72" height="72" viewBox="0 0 24 24" fill="none" stroke="white" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-book-text">
@@ -67,7 +67,7 @@
                 </div>
             </div>
         </div>
-        <div class="p-4">
+        <div class="p-2">
             <div class="grid grid-cols-2 gap-4 mb-4">
                 <div class="flex items-center pl-4 h-28 rounded-2xl bg-[#2B2A4C]">
                     <svg xmlns="http://www.w3.org/2000/svg" width="72" height="72" viewBox="0 0 24 24" fill="none" stroke="white" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-book-text">
