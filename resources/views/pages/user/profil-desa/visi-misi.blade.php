@@ -33,23 +33,15 @@
                     <ul>
                         <li>- Visi</li>
                         <div>
-                            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut
-                            labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco
-                            laboris nisi ut aliquip ex ea commodo consequat.
+                            Terwujudnya Kelurahan Sumberrejo yang Sejahtera, Aman, dan Berdaya Saing melalui Pelayanan Publik yang Prima dan Partisipasi Masyarakat.
                         </div>
                         <li class="mt-5 lg:mt-10">- Misi</li>
                         <div>
-                            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut
-                            labore et dolore magna aliqua. Diam donec adipiscing tristique risus nec feugiat in.
-                            Pellentesque massa placerat duis ultricies. Sed blandit libero volutpat sed cras ornare arcu
-                            dui. Nunc sed id semper risus in. Phasellus egestas tellus rutrum tellus pellentesque eu.
-                            Quisque id diam vel quam elementum pulvinar etiam non quam. Donec ultrices tincidunt arcu
-                            non sodales. Vel pharetra vel turpis nunc eget lorem dolor sed viverra. Ornare arcu odio ut
-                            sem nulla. Tellus rutrum tellus pellentesque eu tincidunt tortor. Dictum sit amet justo
-                            donec enim diam vulputate. Erat nam at lectus urna duis convallis convallis tellus. Non
-                            blandit massa enim nec dui nunc mattis enim ut. Congue nisi vitae suscipit tellus mauris a
-                            diam maecenas. Ultrices eros in cursus turpis. Commodo elit at imperdiet dui accumsan sit
-                            amet. Tincidunt dui ut ornare lectus sit amet est placerat in.
+                            1. Meningkatkan Kualitas Pelayanan Publik: Menyediakan layanan administrasi yang cepat, tepat, dan transparan untuk seluruh warga kelurahan. <br>
+                            2. Mendorong Pemberdayaan Masyarakat: Melaksanakan program-program pemberdayaan yang melibatkan masyarakat untuk meningkatkan kapasitas ekonomi, pendidikan, dan keterampilan. <br>
+3. Memperkuat Keamanan dan Ketertiban Lingkungan: Menggalakkan partisipasi masyarakat dalam menjaga keamanan dan ketertiban lingkungan serta memperkuat koordinasi dengan aparat keamanan. <br>
+4. Meningkatkan Infrastruktur dan Fasilitas Umum: Mengupayakan peningkatan infrastruktur dan fasilitas umum, seperti jalan, drainase, dan fasilitas sosial, guna mendukung aktivitas ekonomi dan sosial warga. <br>
+5. Membangun Keharmonisan Sosial: Mendorong kerukunan dan keharmonisan antar warga melalui kegiatan sosial, budaya, dan keagamaan.
                         </div>
                     </ul>
                 </div>

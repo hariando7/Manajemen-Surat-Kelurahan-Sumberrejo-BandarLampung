@@ -26,8 +26,8 @@
     <div>
         <x-nav-user />
         <section id="cover"
-            class="relative bg-center bg-no-repeat bg-cover bg-white bg-blend-multiply min-h-screen flex items-center justify-center">
-            <form class="relative w-full m-5 lg:m-10 p-6 z-10 text-black">
+            class="relative bg-center bg-no-repeat bg-cover bg-white bg-blend-multiply min-h-screen flex m-20">
+            <form class="relative w-full m-5 lg:m-10 z-10 text-black">
                 <div
                     class="font-bold text-2xl lg:text-4xl mb-5 lg:mb-10 mt-10 lg:mt-0 text-[#2B2A4C] underline underline-offset-4">
                     Status Permohonan

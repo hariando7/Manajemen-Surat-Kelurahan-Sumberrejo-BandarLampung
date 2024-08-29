@@ -30,16 +30,12 @@
                     SEJARAH
                 </div>
                 <div class="text-justify text-black text-sm">
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore
-                    et dolore magna aliqua. Diam donec adipiscing tristique risus nec feugiat in. Pellentesque massa
-                    placerat duis ultricies. Sed blandit libero volutpat sed cras ornare arcu dui. Nunc sed id semper
-                    risus in. Phasellus egestas tellus rutrum tellus pellentesque eu. Quisque id diam vel quam elementum
-                    pulvinar etiam non quam. Donec ultrices tincidunt arcu non sodales. Vel pharetra vel turpis nunc
-                    eget lorem dolor sed viverra. Ornare arcu odio ut sem nulla. Tellus rutrum tellus pellentesque eu
-                    tincidunt tortor. Dictum sit amet justo donec enim diam vulputate. Erat nam at lectus urna duis
-                    convallis convallis tellus. Non blandit massa enim nec dui nunc mattis enim ut. Congue nisi vitae
-                    suscipit tellus mauris a diam maecenas. Ultrices eros in cursus turpis. Commodo elit at imperdiet
-                    dui accumsan sit amet. Tincidunt dui ut ornare lectus sit amet est placerat in.
+                    Kelurahan Sumberrejo adalah salah satu kelurahan yang terletak di Kecamatan Kemiling, Kota Bandar Lampung, Provinsi Lampung. 
+                    Nama "Sumberrejo" berasal dari bahasa Jawa, di mana "Sumber" berarti mata air dan "Rejo" berarti makmur atau sejahtera, mencerminkan harapan agar daerah ini menjadi sumber kesejahteraan bagi penduduknya. 
+                    Awalnya, Sumberrejo merupakan daerah yang belum banyak berkembang, namun seiring dengan urbanisasi dan pembangunan infrastruktur di Bandar Lampung sejak tahun 1980-an, wilayah ini mulai tumbuh pesat. 
+                    Sumberrejo resmi menjadi kelurahan setelah adanya pembagian wilayah di Kecamatan Kemiling, yang bertujuan untuk meningkatkan efisiensi pemerintahan dan pelayanan publik. 
+                    Perekonomian di Kelurahan Sumberrejo didominasi oleh sektor perdagangan, jasa, dan pertanian dalam skala kecil, dengan dukungan lokasi strategis yang menghubungkan beberapa kawasan penting di Kota Bandar Lampung. 
+                    Masyarakat di kelurahan ini hidup harmonis, dengan mayoritas penduduk berasal dari suku Jawa dan Lampung, serta agama Islam sebagai agama mayoritas. Dalam beberapa dekade terakhir, pembangunan infrastruktur seperti jalan, sekolah, dan pusat kesehatan semakin ditingkatkan untuk mendukung pertumbuhan dan kesejahteraan penduduk di wilayah ini.
                 </div>
                 <div class="mt-10">
                     <img src="./image/tentang-kelurahan.svg" class="w-96 flex m-auto justify-center items-center"
